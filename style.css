@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    
+}
+
+
+body{
+    
+    font-family: Arial,sans-serif;
+    background-color: #001f54;
+    color: white; 
+    padding: 50px;
+    width: 10opx;
+    margin: 100px;
+    padding: 0;
+    height: 100vh;
+
+}
+header{
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    padding:20px 60px;
+    /*background-color: #002B7f;*/
+    height: 200px;
+    
+}
+.logo img{ 
+   height: 500px;
+   width: 500px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;   
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+    padding-left: 200px;
+    
+}
+nav ul li a:hover{
+    color: #ffd700;
+}
+.main-content{
+    display: flex;
+   /* justify-content: space-between;*/
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
+.main-content .text{
+    max-width: 40%;
+    
+}
+.main-content h1{
+    font-size: 200px;
+    line-height: 1.2;
+    font-weight: bold;
+    padding: 100px;
+    margin-right: 20px;
+    
+}
+.main-content p{
+    font-size: 50px;
+    line-height: 1.2;
+    margin: 15px 20px;
+    padding: 20px;
+}
+.learn-more{
+    padding: 12px 24px;
+    margin-left: 200px;
+    background-color: #3A74ff;
+    border: 2px solid #0052cc;
+    border-radius: 20px;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.learn-more:hover{
+    background-color: green;  
+}
+.drone-image img{
+    display: block;
+    padding-top: 20rem;
+    padding-right: 10rem;
+    margin-right: 10rem;
+    height: 100rem;
+    max-width: 500rem;
+    border-radius: 10px;
+    padding-left: 40rem;  
+}
+.drone-image img:hover{
+    filter: drop-shadow(5px 20px 30px rgba(198, 199, 191, 0.925));
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #001f54;
+    
+    
+}
+.footer.links{
+    margin: 10px 0;
+
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 40px;
+}
+.footer-links a:hover{
+    color: #ffd700;
+}
+.footer-social-media{
+    margin: 20px;
+}
+.footer-social-media a{
+    margin: 0 10px;
+}
+.footer-social-media img{
+    width: 120px;
+    height: auto;
+}
